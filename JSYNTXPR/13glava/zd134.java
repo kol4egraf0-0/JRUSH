@@ -1,4 +1,4 @@
-package com.javarush.task.pro.task12.task1210;
+
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 Переворачивание данных
 */
 
-public class Solution {
+public class zd134 {
     public static ArrayList<Integer> numbers = new ArrayList<Integer>();
 
     public static void main(String[] args) {

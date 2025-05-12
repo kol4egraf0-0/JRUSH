@@ -1,4 +1,4 @@
-public class Solution {
+public class zd123 {
     public static final String EQUAL = " = ";
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-public class Solution {
+public class zd13 {
     public static void main(String[] args) {
         int first = 2;
         int second = 1;

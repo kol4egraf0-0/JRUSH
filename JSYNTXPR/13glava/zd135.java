@@ -1,4 +1,3 @@
-package com.javarush.task.pro.task12.task1209;
 
 import java.util.ArrayList;
 
@@ -6,7 +5,7 @@ import java.util.ArrayList;
 Бухгалтерия
 */
 
-public class Solution {
+public class zd135 {
     public static ArrayList<String> waitingEmployees = new ArrayList<>();
     public static ArrayList<String> alreadyGotSalaryEmployees = new ArrayList<>();
 

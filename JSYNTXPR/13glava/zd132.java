@@ -1,58 +1,34 @@
-package com.javarush.task.pro.task12.task1206;
 
 /*
-Анализ строк
+Сортировка пузырьком
 */
 
-import java.util.Arrays;
+public class zd132 {
 
-public class Solution {
+    public static int[] numbers = {56, 45, 89, 1, 45, 13, 4, 69, 11, -89};
+
     public static void main(String[] args) {
-        String string = "Думаю, это будет новой фичей." +
-                "Только не говорите никому, что она возникла случайно.";
-
-        System.out.println("Количество цифр в строке : " + countDigits(string));
-        System.out.println("Количество букв в строке : " + countLetters(string));
-        System.out.println("Количество пробелов в строке : " + countSpaces(string));
+        print();
+        sort();
+        System.out.println("\nОтсортированные числа в натуральном порядке:");
+        print();
     }
 
-    public static int countDigits(String string) {
-        //напишите тут ваш код
-        int countDig= 0;
-        char[] a = string.toCharArray();
-        for(int i =0; i<a.length;i++){
-            if(Character.isDigit(a[i])){
-                countDig++;
+    public static void sort() {
+        for (int i = 0; i < numbers.length - 1; i++) {
+            for (int j = 0; j < numbers.length - i - 1; j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    int temp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = temp;
+                }
             }
         }
-
-       return countDig;
-
     }
 
-    public static int countLetters(String string) {
-        //напишите тут ваш код
-        int countDig= 0;
-        char[] a = string.toCharArray();
-        for(int i =0; i<a.length;i++){
-            if(Character.isLetter(a[i])){
-                countDig++;
-            }
+    public static void print() {
+        for (int number : numbers) {
+            System.out.print(number + "\t");
         }
-
-       return countDig;
-    }
-
-    public static int countSpaces(String string) {
-        //напишите тут ваш код
-        int countDig= 0;
-        char[] a = string.toCharArray();
-        for(int i =0; i<a.length;i++){
-            if(Character.isWhitespace(a[i])){
-                countDig++;
-            }
-        }
-
-       return countDig;
     }
 }
