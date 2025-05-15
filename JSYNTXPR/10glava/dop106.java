@@ -25,7 +25,7 @@ public class Solution {
         return stringBuilder.replace(start, end, str);
     }
 }
-package com.javarush.task.pro.task09.task0919;
+
 
 /*
 Разворот строки
