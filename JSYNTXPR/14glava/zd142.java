@@ -19,5 +19,6 @@ public class zd142 {
     public static void main(String[] args) {
         checkWords("JavaScript");
         checkWords("Java");
+
     }
 }
