@@ -1,3 +1,4 @@
+/* 
 public class zd51 {
     public static void main(String[] args) {
         new zd5.LuxuriousCar().printDesire();
@@ -38,3 +39,4 @@ public class zd51 {
         public static String LANOS_NAME = "Ланосе";
     }
 }
+    */

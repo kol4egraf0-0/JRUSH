@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 
 public class zd595 {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        var reader = new BufferedReader(new InputStreamReader(System.in));
 
         int input = Integer.parseInt(reader.readLine());
         reader.close();
