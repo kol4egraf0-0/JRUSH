@@ -1,4 +1,4 @@
-public class zd70 {
+public class zd691 {
     public static volatile boolean isStopped = false;
 
     public static void main(String[] args) throws InterruptedException {

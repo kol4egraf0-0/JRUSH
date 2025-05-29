@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-public class zd71 {
+public class zd692 {
     static volatile List<String> list = new ArrayList<>(5);
 
     static {
